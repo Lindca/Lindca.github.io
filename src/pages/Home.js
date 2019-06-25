@@ -93,7 +93,7 @@ class Home extends Component {
               </Col>
               <Col size="sm-6">
                 <h5>Who am I?</h5>
-                <p>Web Developer with a background in Health Insurance and a Full-Stack Certification from the
+                <p>Full Stack Developer with a background in Health Insurance and a Full-Stack Certification from the
                     University
                     of California - Davis Coding Bootcamp. Passionate about the endless possibilities programming gives
                     and the creativity and logic required for it. Skilled in Jquery, Node.js, and python. Deeply
@@ -112,20 +112,22 @@ class Home extends Component {
                     want to make my ideas come to life inside web applications.</p>
               </Col>
             </Row> */}
-            <Row id="links">
+            <div className="links">
+            <Row>
               <Col size="sm-4">
-                <img alt="" src="./images/resume.png" />
+                <img className="center" alt="" src="./images/resume.png" />
                 <Button><a target="_blank" href="https://docs.google.com/document/d/1yn1RRyRrK9FV0LVe3mS1tK8jOs4URB-kb7LtA4KA1Xc/edit?usp=sharing">Resume</a></Button>
               </Col>
               <Col size="sm-4">
-                <img alt="" src="./images/linkedin.png" />
+                <img className="center" alt="" src="./images/linkedin.png" />
                 <Button><a target="_blank" href="https://www.linkedin.com/in/lindsay-campbell-06517417b/">LinkedIn</a></Button>
               </Col>
               <Col size="sm-4">
-                <img alt="" src="./images/github.jpg" />
+                <img className="center" alt="" src="./images/github.jpg" />
                 <Button><a target="_blank" href="https://github.com/Lindca">Github</a></Button>
               </Col>
             </Row>
+            </div>
           </Container>
         </Jumbotron>
       </div>
