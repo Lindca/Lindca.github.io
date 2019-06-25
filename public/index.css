@@ -1,0 +1,53 @@
+body{
+    background:url(./images/geomet.jpg);
+    background-attachment: fixed;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+.jumbotron{
+    background-color: white !important;
+    margin:10px;
+}
+.navbar-brand{
+    font-size: 30px !important;
+}
+.navbar{
+    background: white;
+    color:black;
+    font-size:22px !important;
+}
+a{
+    color: black !important;
+}
+a.nav-link{
+    padding-left: 5px;
+}
+a.nav-link:hover{
+    color:#26a6fc !important;
+}
+ion-icon {
+    color: black;
+    font-size: 45px;
+}
+.navbar-light .navbar-nav .nav-link {
+      color:black;
+}
+p{
+    font-size:15px;
+}
+ul{
+    list-style: none
+}
+li img{
+    width:50px;
+    height: 50px;
+}
+.btn-secondary{
+    background-color: #26a6fc !important;
+    border-color: #26a6fc !important;
+}
+#links{
+    margin-top: 40px;
+}
