@@ -11,7 +11,6 @@ import NavbarComp from './components/Navbar';
 function App() {
   return (
     <Router>
-      <CounterProvider>
         <div>
           <NavbarComp />
           <Switch>
@@ -20,7 +19,6 @@ function App() {
             <Route exact path="/" component={ContactMe} />
           </Switch>
         </div>
-      </CounterProvider>
     </Router>
   );
 }
