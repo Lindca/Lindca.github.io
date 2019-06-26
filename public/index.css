@@ -31,7 +31,7 @@ ion-icon {
     color: black;
     font-size: 45px;
 }
-a ion-icon:hover {
+ion-icon:hover {
     color: #26a6fc;
 }
 .navbar-light .navbar-nav .nav-link {
@@ -55,4 +55,7 @@ li img{
     margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
+}
+.navbar-toggler-icon{
+    background-color:#26a6fc !important;
 }

@@ -8,6 +8,7 @@ import {
   NavItem,
   NavLink
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 export default class NavBarComp extends React.Component {
   constructor(props) {
@@ -27,20 +28,20 @@ export default class NavBarComp extends React.Component {
     return (
       <div>
         <Navbar expand="md">
-          <NavbarBrand href="/">Lindsay Campbell</NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
+          <NavbarBrand href="/Home">Lindsay Campbell</NavbarBrand>
+          <NavbarToggler onClick={this.toggle}><ion-icon name="menu"></ion-icon></NavbarToggler>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink href="/projects">Projects</NavLink>
+                <NavLink href="/Projects">Projects</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/contactme">Contact Me</NavLink>
+                <NavLink href="/ContactMe">Contact Me</NavLink>
               </NavItem>
             </Nav>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink><a target="_blank" href="https://github.com/Lindca"><ion-icon name="logo-github"></ion-icon></a></NavLink>
+                <NavLink><a target="_blank" to="https://github.com/Lindca"><ion-icon name="logo-github"></ion-icon></a></NavLink>
               </NavItem>
               <NavItem>
                 <NavLink><a target="_blank" href="https://www.linkedin.com/in/lindsay-campbell-06517417b/"><ion-icon name="logo-linkedin"></ion-icon></a></NavLink>
