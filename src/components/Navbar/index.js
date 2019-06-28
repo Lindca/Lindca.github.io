@@ -28,15 +28,15 @@ export default class NavBarComp extends React.Component {
     return (
       <div>
         <Navbar expand="md">
-          <NavbarBrand href="/Home">Lindsay Campbell</NavbarBrand>
+          <NavbarBrand href="/">Lindsay Campbell</NavbarBrand>
           <NavbarToggler onClick={this.toggle}><ion-icon name="menu"></ion-icon></NavbarToggler>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink href="/Projects">Projects</NavLink>
+                <NavLink href="#">Projects</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/ContactMe">Contact Me</NavLink>
+                <NavLink href="#">Contact Me</NavLink>
               </NavItem>
             </Nav>
             <Nav className="ml-auto" navbar>

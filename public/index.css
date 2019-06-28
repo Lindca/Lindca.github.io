@@ -1,20 +1,19 @@
 body{
-    background:url(./images/geomet.jpg);
-    background-attachment: fixed;
-    -webkit-background-size: cover; 
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;  
+    height: 100%
+}
+html{
+    height: 100%
 }
 .jumbotron{
     background-color: white !important;
-    margin:10px;
+    border-color: #704698;
+    border-radius: 2px !important;
 }
 .navbar-brand{
     font-size: 30px !important;
 }
 .navbar{
-    background: white;
+    background:#704698;
     color:black;
     font-size:22px !important;
 }
@@ -25,14 +24,14 @@ a.nav-link{
     padding-left: 5px;
 }
 a.nav-link:hover{
-    color:#26a6fc !important;
+    color: white !important;
 }
 ion-icon {
     color: black;
     font-size: 45px;
 }
 ion-icon:hover {
-    color: #26a6fc;
+    color: white;
 }
 .navbar-light .navbar-nav .nav-link {
       color:black;
@@ -48,14 +47,35 @@ li img{
     height: 50px;
 }
 .btn-secondary{
-    background-color: #26a6fc !important;
-    border-color: #26a6fc !important;
-}
-.links{
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
+    background-color: #704698 !important;
+    border-color: #704698 !important;
+    color: black !important;
 }
 .navbar-toggler-icon{
-    background-color:#26a6fc !important;
+    background-color:#704698 !important;
 }
+img.displayed{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+button.displayed{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+li .nav-item {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg{ 
+    /* The image used */
+    background-image:url(./images/geomet.jpg);
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

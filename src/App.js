@@ -1,9 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
-import ContactMe from './pages/ContactMe';
-import Projects from './pages/Projects';
 import NavbarComp from './components/Navbar';
+import FooterComp from './components/Footer';
 
 // const initialState = { currentUser: {} };
 // const UserContext = React.createContext(initialState);
@@ -14,10 +13,9 @@ function App() {
         <div>
           <NavbarComp />
           <Switch>
-            <Route exact path="/Home" component={Home}></Route>
-            <Route exact path="/Projects" component={Projects} />
-            <Route exact path="/ContactMe" component={ContactMe} />
+            <Route exact path="/" component={Home}></Route>
           </Switch>
+          <FooterComp/>
         </div>
     </Router>
   );
