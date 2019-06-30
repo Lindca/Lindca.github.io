@@ -204,17 +204,13 @@ class Home extends React.Component {
               <div className="links">
                 <Row>
                   <Col size="sm-12">
-                    <h2>Resources</h2>
+                    <h2>Check Me Out!</h2>
                   </Col>
                 </Row>
                 <Row>
                   <Col size="sm-4">
                     <img className="displayed" alt="" src="./images/resume.png" />
                     <Button className="displayed"><a target="_blank" href="https://docs.google.com/document/d/1yn1RRyRrK9FV0LVe3mS1tK8jOs4URB-kb7LtA4KA1Xc/edit?usp=sharing">Resume</a></Button>
-                  </Col>
-                  <Col size="sm-4">
-                    <img className="displayed" alt="" src="./images/linkedin.png" />
-                    <Button className="displayed"><a target="_blank" href="https://www.linkedin.com/in/lindsay-campbell-06517417b/">LinkedIn</a></Button>
                   </Col>
                   <Col size="sm-4">
                     <img className="displayed" alt="" src="./images/github.jpg" />
@@ -226,7 +222,20 @@ class Home extends React.Component {
           </Jumbotron>
           <Jumbotron fluid>
             <Container fluid>
-              <h2>Contact Me</h2>
+            <Row>
+                  <Col size="sm-12">
+                    <h2>Contact Me</h2>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col size="sm-4">
+                    <img className="displayed" alt="" src="./images/linkedin.png" />
+                    <Button className="displayed"><a target="_blank" href="https://www.linkedin.com/in/lindsay-campbell-06517417b/">LinkedIn</a></Button>
+                  </Col>
+                  <Col size="sm-4">
+                      <h4>Email Me: </h4>                   
+                   </Col>
+                </Row>
             </Container>
           </Jumbotron>
         </div >
