@@ -75,4 +75,6 @@ li .nav-item {
     left: 0;
     background-image: url('./images/geomet.jpg');
   }
-  
+div .card{
+    margin:20px;
+}
