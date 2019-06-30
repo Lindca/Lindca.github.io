@@ -9,36 +9,6 @@ html{
     border-color: #26a6fc;
     border-radius: 2px !important;
 }
-.navbar-brand{
-    font-size: 30px !important;
-}
-.navbar{
-    background:#26a6fc;
-    color:black;
-    font-size:22px !important;
-}
-a{
-    color: black !important;
-}
-a.nav-link{
-    padding-left: 5px;
-}
-a.nav-link:hover{
-    color: white !important;
-}
-ion-icon {
-    color: black;
-    font-size: 45px;
-}
-ion-icon:hover {
-    color: white;
-}
-.navbar-light .navbar-nav .nav-link {
-      color:black;
-}
-p{
-    font-size:15px;
-}
 ul{
     list-style: none
 }
@@ -51,9 +21,6 @@ li img{
     border-color: #26a6fc !important;
     color: black !important;
 }
-.navbar-toggler-icon{
-    background-color: #26a6fc !important;
-}
 img.displayed{
     display: block;
     margin-left: auto;
@@ -64,16 +31,12 @@ button.displayed{
     margin-left: auto;
     margin-right: auto;
 }
-li .nav-item {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
 .fleximage {
-    width: 100%;
-    height: 100%;
-    left: 0;
-    background-image: url('./images/geomet.jpg');
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 90%;
   }
 div .card{
     margin:20px;

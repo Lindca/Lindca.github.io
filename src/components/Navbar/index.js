@@ -8,7 +8,7 @@ import {
   NavItem,
   NavLink
 } from 'reactstrap';
-import { Link } from 'react-router-dom';
+import './navbarindex.css';
 
 export default class NavBarComp extends React.Component {
   constructor(props) {
