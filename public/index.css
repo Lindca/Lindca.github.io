@@ -6,14 +6,14 @@ html{
 }
 .jumbotron{
     background-color: white !important;
-    border-color: #704698;
+    border-color: #26a6fc;
     border-radius: 2px !important;
 }
 .navbar-brand{
     font-size: 30px !important;
 }
 .navbar{
-    background:#704698;
+    background:#26a6fc;
     color:black;
     font-size:22px !important;
 }
@@ -47,12 +47,12 @@ li img{
     height: 50px;
 }
 .btn-secondary{
-    background-color: #704698 !important;
-    border-color: #704698 !important;
+    background-color: #26a6fc !important;
+    border-color: #26a6fc !important;
     color: black !important;
 }
 .navbar-toggler-icon{
-    background-color:#704698 !important;
+    background-color: #26a6fc !important;
 }
 img.displayed{
     display: block;
@@ -69,13 +69,10 @@ li .nav-item {
     margin-left: auto;
     margin-right: auto;
 }
-.bg{ 
-    /* The image used */
-    background-image:url(./images/geomet.jpg);
-    /* Full height */
-    height: 100%; 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.fleximage {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-image: url('./images/geomet.jpg');
   }
+  
