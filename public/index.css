@@ -56,6 +56,7 @@ div .card{
 }
 .bg-black a ion-icon{
     color: white;
+    font-size: 50px !important;
 }
 .bg-black a ion-icon:hover{
     color:#26a6fc;
