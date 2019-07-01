@@ -5,9 +5,13 @@ html{
     height: 100%
 }
 .jumbotron{
-    background-color: white !important;
+    background-color: transparent !important;
     border-color: #26a6fc;
     border-radius: 2px !important;
+}
+.jumbotron-fluid{
+    padding-left: 100%;
+    padding-right: 100%; 
 }
 ul{
     list-style: none
@@ -24,7 +28,9 @@ li img{
 img.displayed{
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto;
+    max-height: 250px;
+    max-width:inherit;
 }
 button.displayed{
     display: block;
@@ -40,4 +46,44 @@ button.displayed{
   }
 div .card{
     margin:20px;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+} 
+.card{
+    color: black;
+}
+.bg-black a ion-icon{
+    color: white;
+}
+.bg-black a ion-icon:hover{
+    color:#26a6fc;
+}
+.bg-black a{
+    color:white !important;
+}
+.bg-black a:hover{
+    color:#26a6fc !important;
+}
+a:hover{
+    text-decoration: none;
+}
+.inline{
+    display: inline-block;
+    margin: 3px;
+}
+.link-inline{
+    display: inline-block;
+    margin: 3px;
+}
+.inline ion-icon{
+    color: white !important;
+    font-size: 15px !important;
+}
+div.displayed{
+ width: 100%
+}
+.col-sm-3{
+    text-align: center;
 }
