@@ -16,7 +16,7 @@ class Home extends React.Component {
   render() {
     return (
       <>
-        <img className="fleximage" alt="" src="./images/back.jpg"></img>
+        <img className="fleximage" alt="" src="./images/tablecoffee.jpg"></img>
 
         <Jumbotron fluid>
           <div className="container">
@@ -188,7 +188,7 @@ class Home extends React.Component {
               <Row>
                 <Col size="sm-12">
                   <img className="displayed" alt="" src="./images/resume.png" />
-                  <Button className="displayed"><a target="_blank" href="https://docs.google.com/document/d/1yn1RRyRrK9FV0LVe3mS1tK8jOs4URB-kb7LtA4KA1Xc/edit?usp=sharing">View</a></Button>
+                  <Button className="displayed"><a target="_blank" href="https://docs.google.com/document/d/1yn1RRyRrK9FV0LVe3mS1tK8jOs4URB-kb7LtA4KA1Xc/edit?usp=sharing">View Resume</a></Button>
                 </Col>
               </Row>
             </div>

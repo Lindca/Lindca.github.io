@@ -10,6 +10,9 @@ li .nav-item {
     background:#26a6fc;
     color:black;
     font-size:22px !important;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 a{
     color: black !important;
