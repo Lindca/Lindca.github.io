@@ -32,8 +32,14 @@ export default class NavBarComp extends React.Component {
           <NavbarToggler onClick={this.toggle}><ion-icon name="menu"></ion-icon></NavbarToggler>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
+            <NavItem>
+                <NavLink href="#">About Me</NavLink>
+              </NavItem>
               <NavItem>
                 <NavLink href="#">Projects</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#">Resume</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#">Contact Me</NavLink>
