@@ -16,8 +16,16 @@ class Home extends React.Component {
   render() {
     return (
       <>
-        <img className="fleximage" alt="" src="./images/screencolors.jpg"></img>
-
+        <div className="containerImage">
+            <div className="container containerText">
+                <div className="image-content">
+                    <div className="image-text">
+                        <h1>LINDSAY CAMPBELL</h1>
+                        <h3>FULL STACK DEVELOPER</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
         <Jumbotron fluid>
           <div className="container">
             <Row>
@@ -196,28 +204,28 @@ class Home extends React.Component {
         </Jumbotron>
         <div className="bg-black">
           <div className="container">
-              <Jumbotron fluid>
-                <div className="displayed">
-                  <Row>
-                    <Col size="sm-3">
-                      <div className="inline"><ion-icon name="mail"></ion-icon></div>
-                      <div className="inline"><h5>EMAIL</h5></div>
-                      <div className="inline"><p><a className="email" href="mailto:lindscamp5@gmail.com">lindscamp5@gmail.com</a></p></div>
-                    </Col>
-                    <Col size="sm-3">
-                      <div className="link-inline"><a target="_blank" href="https://www.linkedin.com/in/lindsay-campbell-06517417b/"><ion-icon name="logo-linkedin"></ion-icon></a></div>
-                    </Col>
-                    <Col size="sm-3">
-                      <div className="link-inline"><a target="_blank" to="https://github.com/Lindca"><ion-icon name="logo-github"></ion-icon></a></div>
-                    </Col>
-                    <Col size="sm-3">
-                      <div className="inline"><ion-icon name="call"></ion-icon></div>
-                      <div className="inline"><h5>PHONE</h5></div>
-                      <div className="inline"><p>(916)261-9092</p></div>
-                    </Col>
-                  </Row>
-                </div>
-              </Jumbotron>
+            <Jumbotron fluid>
+              <div className="displayed">
+                <Row>
+                  <Col size="sm-3">
+                    <div className="inline"><ion-icon name="mail"></ion-icon></div>
+                    <div className="inline"><h5>EMAIL</h5></div>
+                    <div className="inline"><p><a className="email" href="mailto:lindscamp5@gmail.com">lindscamp5@gmail.com</a></p></div>
+                  </Col>
+                  <Col size="sm-3">
+                    <div className="link-inline"><a target="_blank" href="https://www.linkedin.com/in/lindsay-campbell-06517417b/"><ion-icon name="logo-linkedin"></ion-icon></a></div>
+                  </Col>
+                  <Col size="sm-3">
+                    <div className="link-inline"><a target="_blank" to="https://github.com/Lindca"><ion-icon name="logo-github"></ion-icon></a></div>
+                  </Col>
+                  <Col size="sm-3">
+                    <div className="inline"><ion-icon name="call"></ion-icon></div>
+                    <div className="inline"><h5>PHONE</h5></div>
+                    <div className="inline"><p>(916)261-9092</p></div>
+                  </Col>
+                </Row>
+              </div>
+            </Jumbotron>
           </div>
         </div>
       </>

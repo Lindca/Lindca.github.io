@@ -13,6 +13,7 @@ li .nav-item {
     position: fixed;
     z-index: 1;
     width: 100%;
+    font-family: 'Lato', sans-serif;
 }
 a{
     color: black !important;
