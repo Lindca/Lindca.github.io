@@ -28,7 +28,7 @@ export default class NavBarComp extends React.Component {
     return (
       <div>
         <Navbar expand="md">
-          <NavbarBrand href="/">Lindsay Campbell</NavbarBrand>
+          <NavbarBrand href="/">LC</NavbarBrand>
           <NavbarToggler onClick={this.toggle}><ion-icon name="menu"></ion-icon></NavbarToggler>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>

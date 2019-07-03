@@ -16,7 +16,7 @@ class Home extends React.Component {
   render() {
     return (
       <>
-        <img className="fleximage" alt="" src="./images/tablecoffee.jpg"></img>
+        <img className="fleximage" alt="" src="./images/screencolors.jpg"></img>
 
         <Jumbotron fluid>
           <div className="container">
