@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {
-  Jumbotron, Button, Card, CardImg, CardText, CardBody,
+  Jumbotron, Button, Card, CardImg, CardText, CardTitle, CardBody,
 } from 'reactstrap';
 import { Col, Row } from "../components/Grid";
 // import { Link } from 'react-router-dom';
@@ -10,23 +10,21 @@ class Home extends React.Component {
     date: ""
   };
 
-  componentDidMount() {
 
-  }
   render() {
     return (
       <>
-        <div className="containerImage">
-            <div className="container containerText">
-                <div className="image-content">
-                    <div className="image-text">
-                        <h1>LINDSAY CAMPBELL</h1>
-                        <h3>FULL STACK DEVELOPER</h3>
-                    </div>
-                </div>
+        <div className="containerImage parallax">
+          <div className="container containerText">
+            <div className="image-content">
+              <div className="image-text">
+                <h1>LINDSAY CAMPBELL</h1>
+                <h3>FULL STACK DEVELOPER</h3>
+              </div>
             </div>
+          </div>
         </div>
-        <Jumbotron fluid>
+        <Jumbotron fluid id="AboutMe">
           <div className="container">
             <Row>
               <Col size="sm-12">
@@ -127,7 +125,7 @@ class Home extends React.Component {
                     want to make my ideas come to life inside web applications.</p>
               </Col>
             </Row> */}
-        <div className="bg-black">
+        <div className="bg-black" id="Projects">
           <Jumbotron fluid>
             <div className="container">
               <Row>
@@ -140,6 +138,7 @@ class Home extends React.Component {
                   <Card>
                     <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
                     <CardBody>
+                      <CardTitle>Card title</CardTitle>
                       <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
                     </CardBody>
                   </Card>
@@ -148,6 +147,7 @@ class Home extends React.Component {
                   <Card>
                     <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
                     <CardBody>
+                      <CardTitle>Card title</CardTitle>
                       <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
                     </CardBody>
                   </Card>
@@ -156,7 +156,8 @@ class Home extends React.Component {
                   <Card>
                     <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
                     <CardBody>
-                      <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+                      <CardTitle>Bamazon</CardTitle>
+                      <CardText>Command Line app that helps you keep track of products for sale and puts them in a database</CardText>
                     </CardBody>
                   </Card>
                 </Col>
@@ -166,6 +167,7 @@ class Home extends React.Component {
                   <Card>
                     <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
                     <CardBody>
+                      <CardTitle>Card title</CardTitle>
                       <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
                     </CardBody>
                   </Card>
@@ -174,6 +176,7 @@ class Home extends React.Component {
                   <Card>
                     <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
                     <CardBody>
+                      <CardTitle>Card title</CardTitle>
                       <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
                     </CardBody>
                   </Card>
@@ -182,6 +185,7 @@ class Home extends React.Component {
                   <Card>
                     <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
                     <CardBody>
+                      <CardTitle>Card title</CardTitle>
                       <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
                     </CardBody>
                   </Card>
@@ -191,7 +195,7 @@ class Home extends React.Component {
           </Jumbotron>
         </div>
         <Jumbotron fluid>
-          <div className="container">
+          <div className="container" id="Resume">
             <div className="links">
               <Row>
                 <Col size="sm-12">
@@ -202,7 +206,7 @@ class Home extends React.Component {
             </div>
           </div>
         </Jumbotron>
-        <div className="bg-black">
+        <div className="bg-black" id="ContactMe">
           <div className="container">
             <Jumbotron fluid>
               <div className="displayed">

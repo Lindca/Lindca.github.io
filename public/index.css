@@ -9,6 +9,8 @@ body,.btn,h5,h1,h2,h3,h4{
 .jumbotron-fluid{
     padding-left: 100%;
     padding-right: 100%; 
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 ul{
     list-style: none
@@ -21,13 +23,6 @@ li img{
     background-color: #26a6fc !important;
     border-color: #26a6fc !important;
     color: black !important;
-}
-.card{
-    color: black;
-    background-color: white;
-    border: 3px solid #26a6fc !important;
-    border-radius: 3px !important;
-    margin:20px;
 }
 img.displayed{
     display: block;
@@ -72,17 +67,6 @@ div.displayed{
 .col-sm-3{
     text-align: center;
 }
-.containerImage{
-    background-position: 50% 0px;
-    background-image: url(./images/screencolors.jpg);
-    width: 100%;
-    display: block;
-    position: relative;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
 .containerText{
     margin-right: auto;
     margin-left: auto;
@@ -118,3 +102,40 @@ div.displayed{
     line-height: 2.5rem;
     letter-spacing: 0.8rem;
 }
+.btn {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+  .card{
+    color: transparent;
+    background-color: white;
+    border: 3px solid #26a6fc !important;
+    border-radius: 3px !important;
+    margin:20px;
+    transition: 0.3s;
+}
+  .card:hover {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.2;
+  }
+  .parallax { 
+    /* The image used */
+    background-image: url(./images/screencolors.jpg);
+  
+    /* Set a specific height */
+    height: 950px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

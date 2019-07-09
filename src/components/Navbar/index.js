@@ -8,6 +8,7 @@ import {
   NavItem,
   NavLink
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
 import './navbarindex.css';
 
 export default class NavBarComp extends React.Component {
@@ -24,6 +25,7 @@ export default class NavBarComp extends React.Component {
       isOpen: !this.state.isOpen
     });
   }
+
   render() {
     return (
       <div>
@@ -33,16 +35,16 @@ export default class NavBarComp extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
             <NavItem>
-                <NavLink href="#">About Me</NavLink>
+                <NavLink><a data-scroll href="#AboutMe">About Me</a></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">Projects</NavLink>
+                <NavLink><a data-scroll href="#Projects">Projects</a></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">Resume</NavLink>
+                <NavLink><a data-scroll href="#Resume">Resume</a></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">Contact Me</NavLink>
+                <NavLink><a data-scroll href="#ContactMe">Contact Me</a></NavLink>
               </NavItem>
             </Nav>
             <Nav className="ml-auto" navbar>
