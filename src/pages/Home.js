@@ -32,87 +32,81 @@ class Home extends React.Component {
               </Col>
             </Row>
             <Row>
-              <Col size="sm-6">
+              <Col size="sm-12">
+                <h5>My Skills</h5>
+              </Col>
+            </Row>
+            <Row>
+              <Col size="lg-6 md-12 sm-12">
                 <Row>
-                  <Col size="sm-12">
-                    <h5>My Skills</h5>
+                  <Col size="lg-2 md-4 sm-3">
+                    <div className="skillIcon">
+                      <img alt="" src="./images/react.png" />
+                      <h5>React.js</h5>
+                    </div>
+                    <div className="skillIcon">
+                      <img alt="" src="./images/HTML5.png" />
+                      <h5>HTML5</h5>
+                    </div>
                   </Col>
-                </Row>
-                <Row>
-                  <Col size="sm-2">
-                    <ul>
-                      <li>
-                        <img alt="" src="./images/react.png" />
-                        <h5>React.js</h5>
-                      </li>
-                      <li>
-                        <img alt="" src="./images/js.png" />
-                        <h5>Javascript</h5>
-                      </li>
-                    </ul>
+                  <Col size="lg-2 md-4 sm-3">
+                    <div className="skillIcon">
+                      <img alt="" src="./images/python.png" />
+                      <h5>Python</h5>
+                    </div>
+                    <div className="skillIcon">
+                      <img alt="" src="./images/nodejs.jpg" />
+                      <h5>Node.js</h5>
+                    </div>
                   </Col>
-                  <Col size="sm-2">
-                    <ul>
-                      <li>
-                        <img alt="" src="./images/python.png" />
-                        <h5>Python</h5>
-                      </li>
-                      <li>
-                        <img alt="" src="./images/nodejs.jpg" />
-                        <h5>Node.js</h5>
-                      </li>
-                    </ul>
+                  <Col size="lg-2 md-4 sm-3">
+                    <div className="skillIcon">
+                      <img alt="" src="./images/CSS3.png" />
+                      <h5>CSS3</h5>
+                    </div>
+                    <div className="skillIcon">
+                      <img alt="" src="./images/MySQL.png" />
+                      <h5>MySQL</h5>
+                    </div>
                   </Col>
-                  <Col size="sm-2">
-                    <ul>
-                      <li>
-                        <img alt="" src="./images/CSS3.png" />
-                        <h5>CSS3</h5>
-                      </li>
-                      <li>
-                        <img alt="" src="./images/MySQL.png" />
-                        <h5>MySQL</h5>
-                      </li>
-                    </ul>
+                  <Col size="lg-2 md-4 sm-3">
+                    <div className="skillIcon">
+                      <img alt="" src="./images/sequelize.png" />
+                      <h5>Sequelize</h5>
+                    </div>
+                    <div className="skillIcon">
+                      <img alt="" src="./images/jquery.jpeg" />
+                      <h5>jQuery</h5>
+                    </div>
                   </Col>
-                  <Col size="sm-2">
-                    <ul>
-                      <li>
-                        <img alt="" src="./images/sequelize.png" />
-                        <h5>Sequelize</h5>
-                      </li>
-                      <li>
-                        <img alt="" src="./images/jquery.jpeg" />
-                        <h5>jQuery</h5>
-                      </li>
-                    </ul>
-                  </Col>
-                  <Col size="sm-2">
-                    <ul>
-                      <li>
-                        <img alt="" src="./images/mongoDB.jpg" />
-                        <h5>MongoDB</h5>
-                      </li>
-                      <li>
-                        <img alt="" src="./images/HTML5.png" />
-                        <h5>HTML5</h5>
-                      </li>
-                    </ul>
+                  <Col size="lg-2 md-4 sm-3">
+                    <div className="skillIcon">
+                      <img alt="" src="./images/mongoDB.jpg" />
+                      <h5>MongoDB</h5>
+                    </div>
+                    <div className="skillIcon">
+                      <img alt="" src="./images/js.png" />
+                      <h5>Javascript</h5>
+                    </div>
                   </Col>
                 </Row>
               </Col>
-              <Col size="sm-6">
-                <h5>Who am I?</h5>
-                <p>Full Stack Developer with a background in Health Insurance and a Full-Stack Certification from the
-                    University
-                    of California - Davis Coding Bootcamp. Passionate about the endless possibilities programming gives
+              <Col size="lg-6 md-12 sm-12">
+                <Row>
+                  <Col size="sm-12 md-12 lg-12">
+                    <h5>Who am I?</h5>
+                    <p>Full Stack Developer with a background in Health Insurance and a Full-Stack Certification from the
+                        University
+                        of California - Davis Coding Bootcamp. Passionate about the endless possibilities programming gives
                     and the creativity and logic required for it. Skilled in Jquery, Node.js, and python. </p>
 
-                <p>Deeply motivated by the thrill of grasping and
-                understanding new concepts and applying them. Known for my dedication to
-                unique projects and continually demonstrating my ability to improve and learn from every line of
-                code.
+                    <p>Deeply motivated by the thrill of grasping and
+                    understanding new concepts and applying them. Known for my dedication to
+                    unique projects and continually demonstrating my ability to improve and learn from every line of
+                    code.
                     Looking to bring a positive attitude and an unrelenting drive to every endeavor.</p>
+                  </Col>
+                </Row>
               </Col>
             </Row>
           </div>
@@ -136,58 +130,154 @@ class Home extends React.Component {
               <Row>
                 <Col size="sm-4">
                   <Card>
-                    <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-                    <CardBody>
-                      <CardTitle>Card title</CardTitle>
-                      <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                    </CardBody>
+                    <div className="imgHover">
+                      <CardImg top width="100%" src="#" alt="Card image cap" />
+                      <div className="overlay ctr">
+                        <Row>
+                          <Col size="sm-12">
+                            <div className="">
+                              <h6>Application</h6>
+                              <p>An application for blah blah blah</p>
+                            </div>
+                          </Col>
+                        </Row>
+                        <Row>
+                          <Col size="sm-6">
+                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="logo-github"></ion-icon></a></div>
+                          </Col>
+                          <Col size="sm-6">
+                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="desktop"></ion-icon></a></div>
+                          </Col>
+                        </Row>
+                      </div>
+                    </div>
                   </Card>
                 </Col>
                 <Col size="sm-4">
                   <Card>
-                    <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-                    <CardBody>
-                      <CardTitle>Card title</CardTitle>
-                      <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                    </CardBody>
+                    <div className="imgHover">
+                      <CardImg top width="100%" src="#" alt="Card image cap" />
+                      <div className="overlay ctr">
+                        <Row>
+                          <Col size="sm-12">
+                            <div className="">
+                              <h6>Application</h6>
+                              <p>An application for blah blah blah</p>
+                            </div>
+                          </Col>
+                        </Row>
+                        <Row>
+                          <Col size="sm-6">
+                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="logo-github"></ion-icon></a></div>
+                          </Col>
+                          <Col size="sm-6">
+                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="desktop"></ion-icon></a></div>
+                          </Col>
+                        </Row>
+                      </div>
+                    </div>
                   </Card>
                 </Col>
                 <Col size="sm-4">
                   <Card>
-                    <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-                    <CardBody>
-                      <CardTitle>Bamazon</CardTitle>
-                      <CardText>Command Line app that helps you keep track of products for sale and puts them in a database</CardText>
-                    </CardBody>
+                    <div className="imgHover">
+                      <CardImg top width="100%" src="#" alt="Card image cap" />
+                      <div className="overlay ctr">
+                        <Row>
+                          <Col size="sm-12">
+                            <div className="">
+                              <h6>Application</h6>
+                              <p>An application for blah blah blah</p>
+                            </div>
+                          </Col>
+                        </Row>
+                        <Row>
+                          <Col size="sm-6">
+                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="logo-github"></ion-icon></a></div>
+                          </Col>
+                          <Col size="sm-6">
+                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="desktop"></ion-icon></a></div>
+                          </Col>
+                        </Row>
+                      </div>
+                    </div>
                   </Card>
                 </Col>
               </Row>
               <Row>
                 <Col size="sm-4">
                   <Card>
-                    <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-                    <CardBody>
-                      <CardTitle>Card title</CardTitle>
-                      <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                    </CardBody>
+                    <div className="imgHover">
+                      <CardImg top width="100%" src="#" alt="Card image cap" />
+                      <div className="overlay ctr">
+                        <Row>
+                          <Col size="sm-12">
+                            <div className="">
+                              <h6>Application</h6>
+                              <p>An application for blah blah blah</p>
+                            </div>
+                          </Col>
+                        </Row>
+                        <Row>
+                          <Col size="sm-6">
+                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="logo-github"></ion-icon></a></div>
+                          </Col>
+                          <Col size="sm-6">
+                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="desktop"></ion-icon></a></div>
+                          </Col>
+                        </Row>
+                      </div>
+                    </div>
                   </Card>
                 </Col>
                 <Col size="sm-4">
                   <Card>
-                    <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-                    <CardBody>
-                      <CardTitle>Card title</CardTitle>
-                      <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                    </CardBody>
+                    <div className="imgHover">
+                      <CardImg top width="100%" src="#" alt="Card image cap" />
+                      <div className="overlay ctr">
+                        <Row>
+                          <Col size="sm-12">
+                            <div className="">
+                              <h6>Application</h6>
+                              <p>An application for blah blah blah</p>
+                            </div>
+                          </Col>
+                        </Row>
+                        <Row>
+                          <Col size="sm-6">
+                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="logo-github"></ion-icon></a></div>
+                          </Col>
+                          <Col size="sm-6">
+                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="desktop"></ion-icon></a></div>
+                          </Col>
+                        </Row>
+                      </div>
+                    </div>
                   </Card>
                 </Col>
                 <Col size="sm-4">
                   <Card>
-                    <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-                    <CardBody>
-                      <CardTitle>Card title</CardTitle>
-                      <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                    </CardBody>
+                    <div className="imgHover">
+                      <CardImg top width="100%" src="#" alt="Card image cap" />
+                      <div className="overlay ctr">
+                        <Row>
+                          <Col size="sm-12">
+                            <div className="">
+                              <h6>Application</h6>
+                              <p>An application for blah blah blah</p>
+                            </div>
+                          </Col>
+                        </Row>
+                        <Row>
+                          <Col size="sm-6">
+                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="logo-github"></ion-icon></a></div>
+                          </Col>
+                          <Col size="sm-6">
+                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="desktop"></ion-icon></a></div>
+                          </Col>
+                        </Row>
+                      </div>
+                    </div>
                   </Card>
                 </Col>
               </Row>
@@ -196,6 +286,13 @@ class Home extends React.Component {
         </div>
         <Jumbotron fluid>
           <div className="container" id="Resume">
+            {/* <Row>
+              <Col size="sm-12">
+                <div className="resumeImage">
+                  <iframe src="https://docs.google.com/document/d/e/2PACX-1vRa8NfNpHWot_wwPT-SPxcIBeig87342lzDzAChHAviPSPdLbOnRi1cy_RUOpq16ZiodluGuArz6BNv/pub?embedded=true"></iframe>
+                </div>
+              </Col>
+            </Row> */}
             <div className="links">
               <Row>
                 <Col size="sm-12">

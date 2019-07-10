@@ -9,15 +9,20 @@ body,.btn,h5,h1,h2,h3,h4{
 .jumbotron-fluid{
     padding-left: 100%;
     padding-right: 100%; 
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
-ul{
-    list-style: none
+.skillIcon{
+    margin: 20px;
+    display: inline-block;
+    max-width: 60px;
+    max-height: 60px;
 }
-li img{
+.skillIcon img{
     width:50px;
     height: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .btn-secondary{
     background-color: #26a6fc !important;
@@ -33,6 +38,10 @@ img.displayed{
 }
 button.displayed{
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.resumeImage{
     margin-left: auto;
     margin-right: auto;
 }
@@ -80,7 +89,6 @@ div.displayed{
     display: table-cell;
     height: 100%;
     vertical-align: middle;
-    
 }
 .image-content{
     display: table;
@@ -113,18 +121,32 @@ div.displayed{
   }
   .card{
     color: transparent;
+    height: 180px;
     background-color: white;
     border: 3px solid #26a6fc !important;
     border-radius: 3px !important;
     margin:20px;
-    transition: 0.3s;
+    transition: opacity .4s ease-in-out;
 }
-  .card:hover {
-    background-color: transparent;
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    opacity: 0.2;
+  .overlay{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      height: 100%;
+      width: 100%;
+      background-color: rgb(16, 17, 17);
+      color:white;
+      opacity:0;
+      transition: .75s ease;
+  }
+  .ctr{
+      position: absolute;
+      transform: translate(-50%,-50%);
+      text-align: center;
+      padding-top:2%;
+  }
+  .imgHover:hover .overlay{
+    opacity:1;
   }
   .parallax { 
     /* The image used */
