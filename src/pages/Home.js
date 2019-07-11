@@ -131,13 +131,90 @@ class Home extends React.Component {
                 <Col size="md-4 sm-12">
                   <Card>
                     <div className="imgHover">
-                      <img top width="100%" className="img-fluid" src="#" alt="Card image cap" />
+                      <img top width="100%" className="img-fluid" src="./screenshots/gradebook.png" alt="Card image cap" />
+                      <div className="overlay ctr">
+                        <Row>
+                          <Col size="sm-12">
+                            <div className="">
+                              <h6>My Grade Book</h6>
+                              <p>An online Grade Book to store and update data for students such as grades and assignments.</p>
+                            </div>
+                          </Col>
+                        </Row>
+                        <Row>
+                          <Col size="sm-6">
+                            <div className="link-inline"><a target="_blank" href="https://github.com/Lindca/project-ld3"><ion-icon name="logo-github"></ion-icon></a></div>
+                          </Col>
+                          <Col size="sm-6">
+                            <div className="link-inline"><a target="_blank" href="https://pacific-taiga-52007.herokuapp.com/"><ion-icon name="desktop"></ion-icon></a></div>
+                          </Col>
+                        </Row>
+                      </div>
+                    </div>
+                  </Card>
+                </Col>
+                <Col size="md-4 sm-12">
+                  <Card>
+                    <div className="imgHover">
+                      <img top width="100%" className="img-fluid" src="./screenshots/mes.png" alt="Card image cap" />
+                      <div className="overlay ctr">
+                        <Row>
+                          <Col size="sm-12">
+                            <div className="">
+                              <h6>MAKE.iT (MES)</h6>
+                              <p>An application for the entire manufacturing process of a small business, stores records of orders, recipes and inventory.</p>
+                            </div>
+                          </Col>
+                        </Row>
+                        <Row>
+                          <Col size="sm-6">
+                            <div className="link-inline"><a target="_blank" href="https://github.com/Lindca/project-cool-mes"><ion-icon name="logo-github"></ion-icon></a></div>
+                          </Col>
+                          <Col size="sm-6">
+                            <div className="link-inline"><a target="_blank" href="https://enigmatic-plains-72936.herokuapp.com/"><ion-icon name="desktop"></ion-icon></a></div>
+                          </Col>
+                        </Row>
+                      </div>
+                    </div>
+                  </Card>
+                </Col>
+                <Col size="md-4 sm-12">
+                  <Card>
+                    <div className="imgHover">
+                      <img top width="100%" className="img-fluid" src="./screenshots/crave.png" alt="Card image cap" />
+                      <div className="overlay ctr">
+                        <Row>
+                          <Col size="sm-12">
+                            <div className="">
+                              <h6>Sacramento Crave</h6>
+                              <p>An application for searching recipes or restaurants in the local area, built with jquery. </p>
+                            </div>
+                          </Col>
+                        </Row>
+                        <Row>
+                          <Col size="sm-6">
+                            <div className="link-inline"><a target="_blank" href="https://github.com/Lindca/Project1"><ion-icon name="logo-github"></ion-icon></a></div>
+                          </Col>
+                          <Col size="sm-6">
+                            <div className="link-inline"><a target="_blank" href="https://jenniferhjones.github.io/Project1/"><ion-icon name="desktop"></ion-icon></a></div>
+                          </Col>
+                        </Row>
+                      </div>
+                    </div>
+                  </Card>
+                </Col>
+              </Row>
+              <Row>
+                <Col size="md-4 sm-12">
+                  <Card>
+                    <div className="imgHover">
+                      <img top width="100%" className="img-fluid" src="./screenshots/dinoclicky.png" alt="Card image cap" />
                       <div className="overlay ctr">
                         <Row>
                           <Col size="sm-12">
                             <div className="">
                               <h6>Clicky Dino Game</h6>
-                              <p>A game built with react.js where you can't click the same image twice.</p>
+                              <p>A game built with react.js where you can't click the same image twice or you lose.</p>
                             </div>
                           </Col>
                         </Row>
@@ -183,7 +260,7 @@ class Home extends React.Component {
                         <Row>
                           <Col size="sm-12">
                             <div className="">
-                              <h6>Eat the Burger</h6>
+                              <h6>Eat da Burger</h6>
                               <p>A burger eating simulation built with handlbars and Javascript.</p>
                             </div>
                           </Col>
@@ -193,84 +270,7 @@ class Home extends React.Component {
                             <div className="link-inline"><a target="_blank" href="https://github.com/Lindca/eatBurger"><ion-icon name="logo-github"></ion-icon></a></div>
                           </Col>
                           <Col size="sm-6">
-                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="desktop"></ion-icon></a></div>
-                          </Col>
-                        </Row>
-                      </div>
-                    </div>
-                  </Card>
-                </Col>
-              </Row>
-              <Row>
-                <Col size="md-4 sm-12">
-                  <Card>
-                    <div className="imgHover">
-                      <img top width="100%" className="img-fluid" src="#" alt="Card image cap" />
-                      <div className="overlay ctr">
-                        <Row>
-                          <Col size="sm-12">
-                            <div className="">
-                              <h6>My Grade Book</h6>
-                              <p>An online Grade Book to store and update data for students such as grades and assignments.</p>
-                            </div>
-                          </Col>
-                        </Row>
-                        <Row>
-                          <Col size="sm-6">
-                            <div className="link-inline"><a target="_blank" href="https://github.com/Lindca/project-ld3"><ion-icon name="logo-github"></ion-icon></a></div>
-                          </Col>
-                          <Col size="sm-6">
-                            <div className="link-inline"><a target="_blank" href="https://pacific-taiga-52007.herokuapp.com/"><ion-icon name="desktop"></ion-icon></a></div>
-                          </Col>
-                        </Row>
-                      </div>
-                    </div>
-                  </Card>
-                </Col>
-                <Col size="md-4 sm-12">
-                  <Card>
-                    <div className="imgHover">
-                      <img top width="100%" className="img-fluid" src="#" alt="Card image cap" />
-                      <div className="overlay ctr">
-                        <Row>
-                          <Col size="sm-12">
-                            <div className="">
-                              <h6>Application</h6>
-                              <p>An application for blah blah blah</p>
-                            </div>
-                          </Col>
-                        </Row>
-                        <Row>
-                          <Col size="sm-6">
-                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="logo-github"></ion-icon></a></div>
-                          </Col>
-                          <Col size="sm-6">
-                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="desktop"></ion-icon></a></div>
-                          </Col>
-                        </Row>
-                      </div>
-                    </div>
-                  </Card>
-                </Col>
-                <Col size="md-4 sm-12">
-                  <Card>
-                    <div className="imgHover">
-                      <img top width="100%" className="img-fluid" src="#" alt="Card image cap" />
-                      <div className="overlay ctr">
-                        <Row>
-                          <Col size="sm-12">
-                            <div className="">
-                              <h6>Application</h6>
-                              <p>An application for blah blah blah</p>
-                            </div>
-                          </Col>
-                        </Row>
-                        <Row>
-                          <Col size="sm-6">
-                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="logo-github"></ion-icon></a></div>
-                          </Col>
-                          <Col size="sm-6">
-                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="desktop"></ion-icon></a></div>
+                            <div className="link-inline"><a target="_blank" href="https://morning-shore-31608.herokuapp.com/"><ion-icon name="desktop"></ion-icon></a></div>
                           </Col>
                         </Row>
                       </div>
