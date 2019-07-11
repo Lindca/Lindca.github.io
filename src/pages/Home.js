@@ -128,72 +128,69 @@ class Home extends React.Component {
                 </Col>
               </Row>
               <Row>
-                <Col size="sm-4">
+                <Col size="md-4 sm-12">
                   <Card>
                     <div className="imgHover">
-                      <CardImg top width="100%" src="#" alt="Card image cap" />
+                      <img top width="100%" className="img-fluid" src="#" alt="Card image cap" />
                       <div className="overlay ctr">
                         <Row>
                           <Col size="sm-12">
                             <div className="">
-                              <h6>Application</h6>
-                              <p>An application for blah blah blah</p>
+                              <h6>Clicky Dino Game</h6>
+                              <p>A game built with react.js where you can't click the same image twice.</p>
                             </div>
                           </Col>
                         </Row>
                         <Row>
                           <Col size="sm-6">
-                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="logo-github"></ion-icon></a></div>
+                            <div className="link-inline"><a target="_blank" href="https://github.com/Lindca/ClickyGame"><ion-icon name="logo-github"></ion-icon></a></div>
                           </Col>
                           <Col size="sm-6">
-                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="desktop"></ion-icon></a></div>
+                            <div className="link-inline"><a target="_blank" href="https://salty-lake-48080.herokuapp.com/"><ion-icon name="desktop"></ion-icon></a></div>
                           </Col>
                         </Row>
                       </div>
                     </div>
                   </Card>
                 </Col>
-                <Col size="sm-4">
+                <Col size="md-4 sm-12">
                   <Card>
                     <div className="imgHover">
-                      <CardImg top width="100%" src="#" alt="Card image cap" />
+                      <img top width="100%" className="img-fluid" src="./images/screenshots/bamazon.png" alt="Card image cap" />
                       <div className="overlay ctr">
                         <Row>
                           <Col size="sm-12">
                             <div className="">
-                              <h6>Application</h6>
-                              <p>An application for blah blah blah</p>
+                              <h6>Bamazon</h6>
+                              <p>A command line app built with Node.js for inventory storage and customer purchases.</p>
                             </div>
                           </Col>
                         </Row>
                         <Row>
                           <Col size="sm-6">
-                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="logo-github"></ion-icon></a></div>
-                          </Col>
-                          <Col size="sm-6">
-                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="desktop"></ion-icon></a></div>
+                            <div className="link-inline"><a target="_blank" href="https://github.com/Lindca/bamazon"><ion-icon name="logo-github"></ion-icon></a></div>
                           </Col>
                         </Row>
                       </div>
                     </div>
                   </Card>
                 </Col>
-                <Col size="sm-4">
+                <Col size="md-4 sm-12">
                   <Card>
                     <div className="imgHover">
-                      <CardImg top width="100%" src="#" alt="Card image cap" />
+                      <img top width="100%" className="img-fluid" src="./images/screenshots/eatdaburger.jpg" alt="Card image cap" />
                       <div className="overlay ctr">
                         <Row>
                           <Col size="sm-12">
                             <div className="">
-                              <h6>Application</h6>
-                              <p>An application for blah blah blah</p>
+                              <h6>Eat the Burger</h6>
+                              <p>A burger eating simulation built with handlbars and Javascript.</p>
                             </div>
                           </Col>
                         </Row>
                         <Row>
                           <Col size="sm-6">
-                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="logo-github"></ion-icon></a></div>
+                            <div className="link-inline"><a target="_blank" href="https://github.com/Lindca/eatBurger"><ion-icon name="logo-github"></ion-icon></a></div>
                           </Col>
                           <Col size="sm-6">
                             <div className="link-inline"><a target="_blank" href="#"><ion-icon name="desktop"></ion-icon></a></div>
@@ -205,10 +202,35 @@ class Home extends React.Component {
                 </Col>
               </Row>
               <Row>
-                <Col size="sm-4">
+                <Col size="md-4 sm-12">
                   <Card>
                     <div className="imgHover">
-                      <CardImg top width="100%" src="#" alt="Card image cap" />
+                      <img top width="100%" className="img-fluid" src="#" alt="Card image cap" />
+                      <div className="overlay ctr">
+                        <Row>
+                          <Col size="sm-12">
+                            <div className="">
+                              <h6>My Grade Book</h6>
+                              <p>An online Grade Book to store and update data for students such as grades and assignments.</p>
+                            </div>
+                          </Col>
+                        </Row>
+                        <Row>
+                          <Col size="sm-6">
+                            <div className="link-inline"><a target="_blank" href="https://github.com/Lindca/project-ld3"><ion-icon name="logo-github"></ion-icon></a></div>
+                          </Col>
+                          <Col size="sm-6">
+                            <div className="link-inline"><a target="_blank" href="https://pacific-taiga-52007.herokuapp.com/"><ion-icon name="desktop"></ion-icon></a></div>
+                          </Col>
+                        </Row>
+                      </div>
+                    </div>
+                  </Card>
+                </Col>
+                <Col size="md-4 sm-12">
+                  <Card>
+                    <div className="imgHover">
+                      <img top width="100%" className="img-fluid" src="#" alt="Card image cap" />
                       <div className="overlay ctr">
                         <Row>
                           <Col size="sm-12">
@@ -230,35 +252,10 @@ class Home extends React.Component {
                     </div>
                   </Card>
                 </Col>
-                <Col size="sm-4">
+                <Col size="md-4 sm-12">
                   <Card>
                     <div className="imgHover">
-                      <CardImg top width="100%" src="#" alt="Card image cap" />
-                      <div className="overlay ctr">
-                        <Row>
-                          <Col size="sm-12">
-                            <div className="">
-                              <h6>Application</h6>
-                              <p>An application for blah blah blah</p>
-                            </div>
-                          </Col>
-                        </Row>
-                        <Row>
-                          <Col size="sm-6">
-                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="logo-github"></ion-icon></a></div>
-                          </Col>
-                          <Col size="sm-6">
-                            <div className="link-inline"><a target="_blank" href="#"><ion-icon name="desktop"></ion-icon></a></div>
-                          </Col>
-                        </Row>
-                      </div>
-                    </div>
-                  </Card>
-                </Col>
-                <Col size="sm-4">
-                  <Card>
-                    <div className="imgHover">
-                      <CardImg top width="100%" src="#" alt="Card image cap" />
+                      <img top width="100%" className="img-fluid" src="#" alt="Card image cap" />
                       <div className="overlay ctr">
                         <Row>
                           <Col size="sm-12">
