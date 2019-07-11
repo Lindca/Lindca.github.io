@@ -156,7 +156,7 @@ class Home extends React.Component {
                 <Col size="md-4 sm-12">
                   <Card>
                     <div className="imgHover">
-                      <img top width="100%" className="img-fluid" src="./images/screenshots/bamazon.png" alt="Card image cap" />
+                      <img top width="100%" className="img-fluid" src="./screenshots/bamazon.png" alt="Card image cap" />
                       <div className="overlay ctr">
                         <Row>
                           <Col size="sm-12">
@@ -178,7 +178,7 @@ class Home extends React.Component {
                 <Col size="md-4 sm-12">
                   <Card>
                     <div className="imgHover">
-                      <img top width="100%" className="img-fluid" src="./images/screenshots/eatdaburger.jpg" alt="Card image cap" />
+                      <img top width="100%" className="img-fluid" src="./screenshots/eatdaburger.jpg" alt="Card image cap" />
                       <div className="overlay ctr">
                         <Row>
                           <Col size="sm-12">
